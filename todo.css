@@ -1,0 +1,92 @@
+*{box-sizing: border-box}
+body{
+    margin:0;
+}
+nav{
+    width:100%;height:50px;background:#333;
+}
+.navlist{
+    width:600px;margin:0 auto;height:100%;
+}
+.navlist input[type=text]{
+    width:400px;height:30px;margin-top:10px;
+    border:0;
+    padding-left:30px;
+    font-size: 14px;
+}
+.navlist input:active,.navlist input:focus{
+    outline: none;
+}
+.navlist .btn{
+    width:80px;height:30px;
+    color:#fff;
+    border:0;
+    font-size: 14px;
+    cursor:pointer;
+}
+#sub{
+    background:forestgreen;
+}
+#clear{
+    background: #db0f29;
+}
+section{
+    width:600px;height:auto;
+    margin:20px auto;
+}
+section header{
+    height:30px;border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+header h3{
+    float:left;
+    margin:0;
+}
+header .num{
+    float:right;
+    margin-right:30px;
+    width:20px;height:20px;
+    background:forestgreen;
+    margin-top:5px;
+    border-radius:50%;
+    color:#fff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+}
+content{
+    width:600px;height:auto;
+}
+ul{
+    list-style: none;padding:0;
+}
+content li{
+    height:30px;margin:10px 0;
+    border-left:5px solid forestgreen;
+    background:#eee;
+    line-height: 30px;
+    padding-right:15px;
+}
+content li input{
+    float:left;
+    margin-top: 10px;
+}
+content li .con{
+    float:left;
+    margin:0 10px;
+}
+content li span{
+    float:left;
+    margin:0 10px;
+}
+.done .con{
+    text-decoration: line-through;
+}
+content li div:active,content li div:focus{
+    outline: none;
+}
+content .del{
+    float:right;
+    cursor: pointer;
+    font-size: 12px;
+}

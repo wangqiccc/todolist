@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+<nav>
+    <div class="navlist">
+        <input type="text" placeholder="请输入待办事项" id="content">
+        <input type="button" value="提交" id="sub" class="btn">
+        <input type="button" value="清空所有" id="clear" class="btn">
+    </div>
+</nav>
+<section class="now">
+        <header>
+            <h3>正在进行</h3>
+            <div class="num">0</div>
+        </header>
+        <content>
+            <ul>
+            </ul>
+        </content>
+    </section>
+<section class="done">
+        <header>
+            <h3>已经完成</h3>
+            <div class="num">0</div>
+        </header>
+        <content>
+            <ul>
+            </ul>
+        </content>
+</section>
+</body>
+<script src="todo.js"></script>
+</html>
